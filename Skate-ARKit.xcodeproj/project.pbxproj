@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A620C91E24038DBC008086D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620C91D24038DBC008086D8 /* AppDelegate.swift */; };
 		A620C92024038DBC008086D8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A620C91F24038DBC008086D8 /* art.scnassets */; };
-		A620C92224038DBC008086D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620C92124038DBC008086D8 /* ViewController.swift */; };
+		A620C92224038DBC008086D8 /* RampPlacerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620C92124038DBC008086D8 /* RampPlacerViewController.swift */; };
 		A620C92524038DBC008086D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A620C92324038DBC008086D8 /* Main.storyboard */; };
 		A620C92724038DC3008086D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A620C92624038DC3008086D8 /* Assets.xcassets */; };
 		A620C92A24038DC3008086D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A620C92824038DC3008086D8 /* LaunchScreen.storyboard */; };
+		A620C9642403962D008086D8 /* RampPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620C9632403962D008086D8 /* RampPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A620C91A24038DBC008086D8 /* Skate-ARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skate-ARKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A620C91D24038DBC008086D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A620C91F24038DBC008086D8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		A620C92124038DBC008086D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A620C92124038DBC008086D8 /* RampPlacerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPlacerViewController.swift; sourceTree = "<group>"; };
 		A620C92424038DBC008086D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A620C92624038DC3008086D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A620C92924038DC3008086D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A620C92B24038DC3008086D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A620C9632403962D008086D8 /* RampPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				A620C91D24038DBC008086D8 /* AppDelegate.swift */,
 				A620C91F24038DBC008086D8 /* art.scnassets */,
-				A620C92124038DBC008086D8 /* ViewController.swift */,
+				A620C96524039632008086D8 /* Controllers */,
 				A620C92324038DBC008086D8 /* Main.storyboard */,
 				A620C92624038DC3008086D8 /* Assets.xcassets */,
 				A620C92824038DC3008086D8 /* LaunchScreen.storyboard */,
 				A620C92B24038DC3008086D8 /* Info.plist */,
 			);
 			path = "Skate-ARKit";
+			sourceTree = "<group>";
+		};
+		A620C96524039632008086D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A620C92124038DBC008086D8 /* RampPlacerViewController.swift */,
+				A620C9632403962D008086D8 /* RampPickerViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A620C92224038DBC008086D8 /* ViewController.swift in Sources */,
+				A620C92224038DBC008086D8 /* RampPlacerViewController.swift in Sources */,
+				A620C9642403962D008086D8 /* RampPickerViewController.swift in Sources */,
 				A620C91E24038DBC008086D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
